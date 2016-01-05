@@ -216,3 +216,4 @@ pip-log.txt
 LeagueSharp.Common/LeagueSharp.Common/LeagueSharp.Common.csproj
 ProSeries.sln
 *.sln
+!itemstarksbindingbufferproc.png
