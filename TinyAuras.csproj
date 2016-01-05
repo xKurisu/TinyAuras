@@ -167,6 +167,7 @@
     <None Include="Resources\Galio\galiorighteousgusthaste.png" />
     <None Include="Resources\Gangplank\gangplankpassiveattackdot.png" />
     <None Include="Resources\Gangplank\gangplankrslow.png" />
+    <None Include="Resources\Items\itemstarksbindingbufferproc.png" />
     <None Include="Resources\Leona\leonashieldofdaybreak.png" />
     <None Include="Resources\Leona\leonazenithbladeroot.png" />
     <None Include="Resources\Lulu\lulufaerieshield.png" />
@@ -485,9 +486,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Items\itemphagespeed.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Items\itemstarksbindingbufferproc.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Kalista\kalistacoopstrikemarkally.png" />
