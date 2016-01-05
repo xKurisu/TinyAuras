@@ -12,7 +12,7 @@ namespace TinyAuras
 {
     internal class Program
     {
-        internal static Menu _root;
+        internal static Menu _root, _debug;
         static void Main(string[] args)
         {
             // super duper simple minamalistic aura tracker :^)
@@ -27,21 +27,50 @@ namespace TinyAuras
 
         private static readonly Render.Text timer = 
             new Render.Text(0, 0, "", 11, new ColorBGRA(255, 255, 255, 255), "monospace");
+
         private static void Game_OnGameLoad(EventArgs args)
         {
             _root = new Menu("TinyAuras", "tinyauras", true);
             _root.AddItem(new MenuItem("tself", "Track Self")).SetValue(true);
             _root.AddItem(new MenuItem("tally", "Track Allies")).SetValue(true);
             _root.AddItem(new MenuItem("tenemy", "Track Enemies")).SetValue(true);
-            _root.AddItem(new MenuItem("debug", "Debug")).SetValue(false);
+            _root.AddItem(new MenuItem("loaddebug", "Debug")).SetValue(false);
             _root.AddToMainMenu();
+
+            if (_root.Item("loaddebug").GetValue<bool>())
+            {
+                _debug = new Menu("TinyDebug", "debugmenu", true);
+                _debug.AddItem(new MenuItem("debug", "Debug")).SetValue(true);
+                _debug.AddItem(new MenuItem("debugtarget", "Target: "))
+                    .SetValue(new StringList(HeroManager.AllHeroes.Select(x => x.Name).ToArray()));
+                _debug.AddToMainMenu();
+            }
 
             Game.OnUpdate += Game_OnUpdate;
 
             Obj_AI_Base.OnBuffAdd += Obj_AI_Base_OnBuffAdd;
             Obj_AI_Base.OnBuffRemove += Obj_AI_Base_OnBuffRemove;
-            Drawing.OnDraw += Drawing_OnDraw;
+            Obj_AI_Base.OnEnterLocalVisiblityClient += Obj_AI_Base_OnEnterLocalVisiblityClient;
 
+            Drawing.OnDraw += Drawing_OnDraw;
+        }
+
+        private static void Obj_AI_Base_OnEnterLocalVisiblityClient(AttackableUnit sender, EventArgs args)
+        {
+            var hero = sender as Obj_AI_Hero;
+            if (hero != null && hero.IsValid)
+            {
+                foreach (var b in hero.Buffs)
+                {
+                    var o = Resources.ResourceManager.GetObject(b.Name);
+                     
+                    var bmp = (Bitmap) o;
+                    if (bmp != null)
+                    {
+                        NewAura(hero, new Buff(b.Name, b.StartTime, b.EndTime, hero), bmp);
+                    }
+                }
+            }
         }
 
         private static void Drawing_OnDraw(EventArgs args)
@@ -49,7 +78,7 @@ namespace TinyAuras
             foreach (var hero in HeroManager.AllHeroes)
             {
                 if (hero.IsEnemy && !_root.Item("tenemy").GetValue<bool>() ||
-                    hero.IsAlly && !_root.Item("tally").GetValue<bool>() ||
+                    hero.IsAlly && !hero.IsMe && !_root.Item("tally").GetValue<bool>() ||
                     hero.IsMe && !_root.Item("tself").GetValue<bool>())
                     continue;
 
@@ -92,7 +121,7 @@ namespace TinyAuras
         private static void NewAura(Obj_AI_Hero hero, Buff buff, Bitmap bmp)
         {
             if (hero.IsEnemy && !_root.Item("tenemy").GetValue<bool>() ||
-                hero.IsAlly && !_root.Item("tally").GetValue<bool>() ||
+                hero.IsAlly && !hero.IsMe && !_root.Item("tally").GetValue<bool>() ||
                 hero.IsMe && !_root.Item("tself").GetValue<bool>())
                 return;
 
@@ -162,10 +191,16 @@ namespace TinyAuras
 
         private static void Obj_AI_Base_OnBuffAdd(Obj_AI_Base sender, Obj_AI_BaseBuffAddEventArgs args)
         {
-            if (_root.Item("debug").GetValue<bool>() && args.Buff.Caster.IsValid && args.Buff.Caster.IsMe)
+            if (_root.Item("loaddebug").GetValue<bool>())
             {
-                Console.WriteLine(sender.Name + " : " + args.Buff.Name.ToLower() + " : " + (args.Buff.EndTime - args.Buff.StartTime));
-                Game.PrintChat(sender.Name + " : " + args.Buff.Name.ToLower() + " : " + (args.Buff.EndTime - args.Buff.StartTime));
+                if (_debug.Item("debug").GetValue<bool>() && args.Buff.Caster.IsValid)
+                {
+                    if (args.Buff.Caster.Name == _debug.Item("debugtarget").GetValue<StringList>().SelectedValue)
+                    {
+                        Console.WriteLine(sender.Name + " : " + args.Buff.Name.ToLower() + " : " + (args.Buff.EndTime - args.Buff.StartTime));
+                        Game.PrintChat(sender.Name + " : " + args.Buff.Name.ToLower() + " : " + (args.Buff.EndTime - args.Buff.StartTime));
+                    }
+                }
             }
 
             var hero = sender as Obj_AI_Hero;

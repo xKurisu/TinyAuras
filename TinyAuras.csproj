@@ -250,9 +250,6 @@
     <None Include="Resources\Masteries\masterylordsdecreecooldown.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Masteries\masteryonhitdamagestacker.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Masteries\masterypickpocketcd.png" />
   </ItemGroup>
   <ItemGroup>
@@ -488,6 +485,195 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Items\itemphagespeed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Items\itemstarksbindingbufferproc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kalista\kalistacoopstrikemarkally.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kalista\kalistacoopstrikemarkself.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kalista\kalistaexpungemarker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kalista\kalistapaltarbuffrise.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kalista\kalistarinvuln.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kalista\kalistarx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kalista\kalistavobindally.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jinx\jinxminesnare.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jinx\jinxpassiveattackspeed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jinx\jinxpassivekill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jinx\jinxqramp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jinx\jinxwsight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jayce\jayceacceleratorchampionbuff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jayce\jaycehypercharge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jayce\jayceknockedbuff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jayce\jaycepassivedebuff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jayce\jaycepassivehaste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jayce\jaycestaticfield.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jax\jaxcounterstrike.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jax\jaxempowertwo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jax\jaxrelentlessassaultas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jax\jaxrelentlessassaultspeed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JarvanIV\jarvanivdemacianstandard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JarvanIV\jarvanivgoldenaegis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Janna\eyeofthestorm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Janna\howlinggale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Janna\howlinggalespell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Janna\reapthewhirlwind.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Irelia\ireliahitenstylecharged.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Irelia\ireliatranscendentbladesspell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Illaoi\illaoir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Illaoi\illaoitentaclespawncooldown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Illaoi\illaoiw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Illaoi\illaoiwattack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Heimerdinger\heimerdingerespell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\General\summonerboost.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\General\summonerexhaust.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Karthus\karthusdefile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Karthus\karthusfallenonetarget.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Karthus\karthuswallofpaintarget.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Karthus\tinyauras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Items\bilgewatercutlassdebuff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Items\itemseraphsembrace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Items\itemswordoffeastandfamine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Items\itemswordoffeastandfamineself.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Items\itemwraithcollarslow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Items\rylaivisualslowaoe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Items\rylaivisualslowdot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Items\zephyrslamentburn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Karma\karmamantra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Karma\karmaq.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Karma\karmaqmissileslow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Karma\karmasolkimshield.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Karma\karmaspiritbind.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Karma\karmaspiritbindroot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kassadin\netherblade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kassadin\nulllance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kassadin\riftwalk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Katarina\katarinaereduction.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Katarina\katarinaqmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Katarina\katarinarsound.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Katarina\katarinawhaste.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
