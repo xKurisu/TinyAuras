@@ -139,13 +139,16 @@ namespace TinyAuras
         {
             foreach (var buff in activebuffs.Values)
             {
-                var livetick = (int) buff.Source.GetBuff(buff.Name).EndTime;
-                var storedtick = (int) buff.EndTick;
-
-                if (livetick != storedtick)
+                if (buff.Source.IsValid)
                 {
-                    buff.EndTick = livetick;
-                    break;
+                    var livetick = (int) buff.Source.GetBuff(buff.Name).EndTime;
+                    var storedtick = (int) buff.EndTick;
+
+                    if (livetick != storedtick)
+                    {
+                        buff.EndTick = livetick;
+                        break;
+                    }
                 }
 
                 var endtick = buff.EndTick * 1000;
