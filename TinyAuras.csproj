@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8EC81B43-5726-4B83-98BD-07B3853AE468}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TinyAuras</RootNamespace>
+    <AssemblyName>TinyAuras</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PreBuildEvent />
+    <PostBuildEvent />
+    <OutputPath>bin\Release</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LeagueSharp">
+      <HintPath>C:\Program Files (x86)\LeagueSharp\System\LeagueSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="LeagueSharp.Common">
+      <HintPath>C:\Program Files (x86)\LeagueSharp\System\LeagueSharp.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX">
+      <HintPath>C:\Program Files (x86)\LeagueSharp\System\SharpDX.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Direct3D9, Version=2.6.3.0, Culture=neutral, PublicKeyToken=345b829e6e492981, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\LeagueSharp\System\SharpDX.Direct3D9.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Buff.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Resources\Aatrox\aatroxpassivedeath.png" />
+    <None Include="Resources\Aatrox\aatroxr.png" />
+    <None Include="Resources\Ahri\ahrifoxfire.png" />
+    <None Include="Resources\Ahri\ahriseduce.png" />
+    <None Include="Resources\Ahri\ahritumble.png" />
+    <None Include="Resources\Akali\akalimota.png" />
+    <None Include="Resources\Akali\akaliwbuff.png" />
+    <None Include="Resources\Akali\akaliwstealth.png" />
+    <None Include="Resources\Alistar\alistartrample.png" />
+    <None Include="Resources\Alistar\ferocioushowl.png" />
+    <None Include="Resources\Alistar\headbutttarget.png" />
+    <None Include="Resources\Alistar\pulverize.png" />
+    <None Include="Resources\Amumu\cursedtouch.png" />
+    <None Include="Resources\Amumu\curseofthesadmummy.png" />
+    <None Include="Resources\Anivia\chilled.png" />
+    <None Include="Resources\Anivia\rebirth.png" />
+    <None Include="Resources\Anivia\rebirthcooldown.png" />
+    <None Include="Resources\Annie\infernalguardiantimer.png" />
+    <None Include="Resources\Annie\moltenshield.png" />
+    <None Include="Resources\Ashe\ashepassiveslow.png" />
+    <None Include="Resources\Ashe\asheq.png" />
+    <None Include="Resources\Ashe\asheqcastready.png" />
+    <None Include="Resources\Azir\azirischannelingpassive.png" />
+    <None Include="Resources\Azir\azirqslow.png" />
+    <None Include="Resources\Azir\azirrbump.png" />
+    <None Include="Resources\Azir\azirrhaste.png" />
+    <None Include="Resources\Bard\bardpchimepickupspeedboost.png" />
+    <None Include="Resources\Bard\bardpspiritmissileslow.png" />
+    <None Include="Resources\Bard\bardqshackledebuff.png" />
+    <None Include="Resources\Bard\bardrstasis.png" />
+    <None Include="Resources\Bard\bardwspeedboost.png" />
+    <None Include="Resources\Blitzcrank\manabarrier.png" />
+    <None Include="Resources\Blitzcrank\manabarriercooldown.png" />
+    <None Include="Resources\Blitzcrank\overdrive.png" />
+    <None Include="Resources\Blitzcrank\powerfist.png" />
+    <None Include="Resources\Blitzcrank\rocketgrab2.png" />
+    <None Include="Resources\Braum\braumeshieldbuff.png" />
+    <None Include="Resources\Braum\braummark.png" />
+    <None Include="Resources\Braum\braumpulselineknockup.png" />
+    <None Include="Resources\Braum\braumqslow.png" />
+    <None Include="Resources\Braum\braumwpassivestatsdoubler.png" />
+    <None Include="Resources\Caitlyn\caitlynaceinthehole.png" />
+    <None Include="Resources\Caitlyn\caitlynentrapmentmissile.png" />
+    <None Include="Resources\Caitlyn\caitlynyordletrapinternal.png" />
+    <None Include="Resources\Cassiopeia\cassiopeiamiasmapoison.png" />
+    <None Include="Resources\Cassiopeia\cassiopeianoxiousblastpoison.png" />
+    <None Include="Resources\Cassiopeia\cassiopeiapetrifyinggazestun.png" />
+    <None Include="Resources\Cassiopeia\cassiopeiatwinfangdebuff.png" />
+    <None Include="Resources\Chogath\rupturelaunch.png" />
+    <None Include="Resources\Corki\corkiloadup.png" />
+    <None Include="Resources\Corki\corkiloadupcd.png" />
+    <None Include="Resources\Corki\gatlingdebuff.png" />
+    <None Include="Resources\Corki\ggun.png" />
+    <None Include="Resources\Darius\dariuseslow.png" />
+    <None Include="Resources\Darius\dariushemo.png" />
+    <None Include="Resources\Darius\dariusnoxiantacticsonh.png" />
+    <None Include="Resources\Diana\dianapassivemarker.png" />
+    <None Include="Resources\Draven\dravendoubleshotmissile.png" />
+    <None Include="Resources\Draven\dravenfurybuff.png" />
+    <None Include="Resources\Draven\dravenminionstreak.png" />
+    <None Include="Resources\Draven\dravenrdoublecast.png" />
+    <None Include="Resources\Draven\dravenspinning.png" />
+    <None Include="Resources\Ekko\ekkoeattackbuff.png" />
+    <None Include="Resources\Ekko\ekkorinvuln.png" />
+    <None Include="Resources\Ekko\ekkostacks.png" />
+    <None Include="Resources\Ekko\ekkowshield.png" />
+    <None Include="Resources\Ekko\ekkowstun.png" />
+    <None Include="Resources\Elise\elisehumane.png" />
+    <None Include="Resources\Elise\elisespidereenhancement.png" />
+    <None Include="Resources\Elise\elisespidereindicator.png" />
+    <None Include="Resources\Elise\elisespiderw.png" />
+    <None Include="Resources\Evelynn\evelynne.png" />
+    <None Include="Resources\Evelynn\evelynnrshield.png" />
+    <None Include="Resources\Evelynn\evelynnrslow.png" />
+    <None Include="Resources\Evelynn\evelynnw.png" />
+    <None Include="Resources\Ezreal\ezrealessenceflux.png" />
+    <None Include="Resources\Ezreal\ezrealrisingspellforce.png" />
+    <None Include="Resources\Fiddle\crowstorm.png" />
+    <None Include="Resources\Fiddle\darkwind.png" />
+    <None Include="Resources\Fiddle\drainchannel.png" />
+    <None Include="Resources\Fiddle\fearmonger_marker.png" />
+    <None Include="Resources\Fiddle\paranoiamisschance.png" />
+    <None Include="Resources\Fiora\fiorae.png" />
+    <None Include="Resources\Fiora\fiorae2.png" />
+    <None Include="Resources\Fiora\fioraeslow.png" />
+    <None Include="Resources\Fiora\fiorarbuff.png" />
+    <None Include="Resources\Fiora\fioraw.png" />
+    <None Include="Resources\Fizz\fizzmarinerdoombomb.png" />
+    <None Include="Resources\Fizz\fizzseastonepassive.png" />
+    <None Include="Resources\Fizz\fizzseastonetrident.png" />
+    <None Include="Resources\Galio\galiobulwark.png" />
+    <None Include="Resources\Galio\galioidolofdurand.png" />
+    <None Include="Resources\Galio\galioresolutesmite.png" />
+    <None Include="Resources\Galio\galiorighteousgusthaste.png" />
+    <None Include="Resources\Gangplank\gangplankpassiveattackdot.png" />
+    <None Include="Resources\Gangplank\gangplankrslow.png" />
+    <None Include="Resources\Leona\leonashieldofdaybreak.png" />
+    <None Include="Resources\Leona\leonazenithbladeroot.png" />
+    <None Include="Resources\Lulu\lulufaerieshield.png" />
+    <None Include="Resources\Lulu\lulur.png" />
+    <None Include="Resources\Lulu\luluwbuff.png" />
+    <None Include="Resources\Mundo\infectedcleavermissile.png" />
+    <None Include="Resources\Mundo\sadism.png" />
+    <None Include="Resources\Rammus\defensiveballcurl.png" />
+    <None Include="Resources\Rammus\powerball.png" />
+    <None Include="Resources\Rammus\puncturingtauntarmordebuff.png" />
+    <None Include="Resources\Riven\rivenfeint.png" />
+    <None Include="Resources\Riven\rivenfengshuiengine.png" />
+    <None Include="Resources\Riven\rivenpassiveaaboost.png" />
+    <None Include="Resources\Riven\riventricleave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Garen\garene.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Brand\brandablaze.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Garen\garenq.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Garen\garenw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MissFortune\missfortunebulletsound.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MissFortune\missfortunescattershotslow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MissFortune\missfortuneviciousstrikes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Orianna\orianahaste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Orianna\orianapowerdaggerdisplay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Orianna\orianaredactshield.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vayne\vaynecondemnmissile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vayne\vayneinquistion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vayne\vaynesilverreddebuff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vayne\vaynetumblebonus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zac\zace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zac\zacrrebirth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Masteries\mastery6261.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Masteries\masteryburndebuff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Masteries\masteryfeastlockout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Masteries\masterylordsdecreecooldown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Masteries\masteryonhitdamagestacker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Masteries\masterypickpocketcd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Items\catalystheal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Items\elixirofiron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Items\elixirofsorcery.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Items\elixirofwrath.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Items\healthbomb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Items\ironstylusbuff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Items\itemcrystalflask.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Items\itemcrystalflaskjungle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Items\itemdarkcrystalflask.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Items\itemhorn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Items\itemjuggernautincombat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Items\itemminiregenpotion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Items\oracleextractsight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Items\regenerationpotion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Items\spectralfury.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Items\zhonyasringshield.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\General\blessingofthelizardelder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\General\crestoftheancientgolem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\General\krugstonefist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\General\odinrecall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\General\odinrecallimproved.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\General\razorbeakalert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\General\recall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\General\recallimproved.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\General\s5junglemushroompoison.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\General\sru_crabspeedboost.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\General\summonerdot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\General\summonerhaste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\General\superrecall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\General\superrecallimproved.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BuffTypes\airborne.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BuffTypes\blind.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BuffTypes\charm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BuffTypes\disarm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BuffTypes\fear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BuffTypes\flee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BuffTypes\grievouswound.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BuffTypes\haste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BuffTypes\root.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BuffTypes\silence.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BuffTypes\slow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BuffTypes\snare.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BuffTypes\stasis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BuffTypes\stun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BuffTypes\suppression.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BuffTypes\suspension.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BuffTypes\taunt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gnar\gnare.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gnar\gnareattackspeed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gnar\gnartransformsoon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gnar\gnartransformtired.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gnar\gnarwbuff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gnar\gnarwproc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Graves\gravesegrit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lucain\lucainwbuff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lucain\lucainwdebuff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lucain\lucianpassivebuff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lucain\lucianr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MasterYi\alphastrike.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MasterYi\doublestrike.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MasterYi\doublestrikestacks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MasterYi\highlander.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MasterYi\meditate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gragas\gragase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gragas\gragasestun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gragas\gragasq.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gragas\gragaswattackbuff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gragas\gragaswself.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\General\s4spawnlockspeed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\General\summonerbarrier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Items\hexdrinker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Items\hexdrinkertimercd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\General\srhomeguardspeed.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
