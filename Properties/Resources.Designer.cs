@@ -1253,6 +1253,46 @@ namespace TinyAuras.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap hecarimrampspeed {
+            get {
+                object obj = ResourceManager.GetObject("hecarimrampspeed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hecarimrapidslash2 {
+            get {
+                object obj = ResourceManager.GetObject("hecarimrapidslash2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hecarimultmissilegrab {
+            get {
+                object obj = ResourceManager.GetObject("hecarimultmissilegrab", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hecarimw {
+            get {
+                object obj = ResourceManager.GetObject("hecarimw", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hexdrinker {
             get {
                 object obj = ResourceManager.GetObject("hexdrinker", resourceCulture);
@@ -1366,6 +1406,16 @@ namespace TinyAuras.Properties {
         internal static System.Drawing.Bitmap itemminiregenpotion {
             get {
                 object obj = ResourceManager.GetObject("itemminiregenpotion", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap itemphagespeed {
+            get {
+                object obj = ResourceManager.GetObject("itemphagespeed", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
