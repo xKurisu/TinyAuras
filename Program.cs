@@ -168,23 +168,28 @@ namespace TinyAuras
         {
             foreach (var buff in activebuffs.Values)
             {
-                if (buff.Source.IsValid)
-                {
-                    var livetick = (int) buff.Source.GetBuff(buff.Name).EndTime;
-                    var storedtick = (int) buff.EndTick;
-
-                    if (livetick != storedtick)
-                    {
-                        buff.EndTick = livetick;
-                        break;
-                    }
-                }
-
                 var endtick = buff.EndTick * 1000;
                 if (endtick - Utils.GameTimeTickCount < 0)
                 {
                     RemoveAura(buff);
                     break;
+                }
+
+                try
+                {
+                    if (buff.Source.IsValid)
+                    {
+                        var storedtick = (int) buff.EndTick;
+                        if (storedtick != (int) buff.Source.GetBuff(buff.Name).EndTime)
+                        {
+                            buff.EndTick = (int) buff.Source.GetBuff(buff.Name).EndTime;
+                            break;
+                        }
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("Failed to update TinyAura: " + e.Message);
                 }
             }
         }
