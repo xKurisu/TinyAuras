@@ -323,6 +323,76 @@ namespace TinyAuras.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap blindminkwtwo {
+            get {
+                object obj = ResourceManager.GetObject("blindminkwtwo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap blindmonkeone {
+            get {
+                object obj = ResourceManager.GetObject("blindmonkeone", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap blindmonketwomissile {
+            get {
+                object obj = ResourceManager.GetObject("blindmonketwomissile", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap blindmonkpassive_cosmetic {
+            get {
+                object obj = ResourceManager.GetObject("blindmonkpassive_cosmetic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap blindmonkqone {
+            get {
+                object obj = ResourceManager.GetObject("blindmonkqone", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap blindmonkrkick {
+            get {
+                object obj = ResourceManager.GetObject("blindmonkrkick", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap blindmonkwoneshield {
+            get {
+                object obj = ResourceManager.GetObject("blindmonkwoneshield", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap brandablaze {
             get {
                 object obj = ResourceManager.GetObject("brandablaze", resourceCulture);
@@ -1533,6 +1603,16 @@ namespace TinyAuras.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap itemrighteousglory {
+            get {
+                object obj = ResourceManager.GetObject("itemrighteousglory", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap itemseraphsembrace {
             get {
                 object obj = ResourceManager.GetObject("itemseraphsembrace", resourceCulture);
@@ -1753,6 +1833,56 @@ namespace TinyAuras.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap judicatordivineblessing {
+            get {
+                object obj = ResourceManager.GetObject("judicatordivineblessing", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap judicatorholyfervordebuff {
+            get {
+                object obj = ResourceManager.GetObject("judicatorholyfervordebuff", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap judicatorintervention {
+            get {
+                object obj = ResourceManager.GetObject("judicatorintervention", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap judicatorreckoning {
+            get {
+                object obj = ResourceManager.GetObject("judicatorreckoning", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap judicatorrighteousfury {
+            get {
+                object obj = ResourceManager.GetObject("judicatorrighteousfury", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap kalistacoopstrikemarkally {
             get {
                 object obj = ResourceManager.GetObject("kalistacoopstrikemarkally", resourceCulture);
@@ -1953,6 +2083,136 @@ namespace TinyAuras.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap kennenlightningrush {
+            get {
+                object obj = ResourceManager.GetObject("kennenlightningrush", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kennenlightningrushbuff {
+            get {
+                object obj = ResourceManager.GetObject("kennenlightningrushbuff", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kennenmarkofstorm {
+            get {
+                object obj = ResourceManager.GetObject("kennenmarkofstorm", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kennenshurikenstorm {
+            get {
+                object obj = ResourceManager.GetObject("kennenshurikenstorm", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap khazixpslow {
+            get {
+                object obj = ResourceManager.GetObject("khazixpslow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap khazixr {
+            get {
+                object obj = ResourceManager.GetObject("khazixr", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap khazixrstealth {
+            get {
+                object obj = ResourceManager.GetObject("khazixrstealth", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap khazixwslow {
+            get {
+                object obj = ResourceManager.GetObject("khazixwslow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kindredecharge {
+            get {
+                object obj = ResourceManager.GetObject("kindredecharge", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kindrederefesher {
+            get {
+                object obj = ResourceManager.GetObject("kindrederefesher", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kindredmarkofthekindredtimer {
+            get {
+                object obj = ResourceManager.GetObject("kindredmarkofthekindredtimer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kindredrnodeathbuff {
+            get {
+                object obj = ResourceManager.GetObject("kindredrnodeathbuff", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kindredwclonebuffvisible {
+            get {
+                object obj = ResourceManager.GetObject("kindredwclonebuffvisible", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap krugstonefist {
             get {
                 object obj = ResourceManager.GetObject("krugstonefist", resourceCulture);
@@ -1966,6 +2226,36 @@ namespace TinyAuras.Properties {
         internal static System.Drawing.Bitmap leonashieldofdaybreak {
             get {
                 object obj = ResourceManager.GetObject("leonashieldofdaybreak", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap leonasolarbarrier2 {
+            get {
+                object obj = ResourceManager.GetObject("leonasolarbarrier2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap leonasolarflareslow {
+            get {
+                object obj = ResourceManager.GetObject("leonasolarflareslow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap leonasunlight {
+            get {
+                object obj = ResourceManager.GetObject("leonasunlight", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2306,6 +2596,16 @@ namespace TinyAuras.Properties {
         internal static System.Drawing.Bitmap puncturingtauntarmordebuff {
             get {
                 object obj = ResourceManager.GetObject("puncturingtauntarmordebuff", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rageblade {
+            get {
+                object obj = ResourceManager.GetObject("rageblade", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -673,6 +673,96 @@
   <ItemGroup>
     <None Include="Resources\Katarina\katarinawhaste.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Items\itemrighteousglory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Items\rageblade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leona\leonasolarbarrier2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leona\leonasolarflareslow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leona\leonasunlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LeeSin\blindminkwtwo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LeeSin\blindmonkeone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LeeSin\blindmonketwomissile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LeeSin\blindmonkpassive_cosmetic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LeeSin\blindmonkqone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LeeSin\blindmonkrkick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LeeSin\blindmonkwoneshield.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kindred\kindredecharge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kindred\kindrederefesher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kindred\kindredmarkofthekindredtimer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kindred\kindredrnodeathbuff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kindred\kindredwclonebuffvisible.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Khazix\khazixpslow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Khazix\khazixr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Khazix\khazixrstealth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Khazix\khazixwslow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kennen\kennenlightningrush.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kennen\kennenlightningrushbuff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kennen\kennenmarkofstorm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kennen\kennenshurikenstorm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kayle\judicatordivineblessing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kayle\judicatorholyfervordebuff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kayle\judicatorintervention.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kayle\judicatorreckoning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kayle\judicatorrighteousfury.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
