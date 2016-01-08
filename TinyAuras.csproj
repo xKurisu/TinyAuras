@@ -763,6 +763,123 @@
   <ItemGroup>
     <None Include="Resources\Kayle\judicatorrighteousfury.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\General\summonerheal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kogmaw\kogmawbioarcanebarrage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kogmaw\kogmawcausticspittlecharged.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kogmaw\kogmawicathiansurprise.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kogmaw\kogmawlivingartillerrycost.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kogmaw\kogmawlivingartillerrysight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kogmaw\kogmawvoidoozeslow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leblanc\leblancchaosorb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leblanc\leblancchaosorbm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leblanc\leblancchaosorbproc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leblanc\leblancslide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leblanc\leblancslidem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leblanc\leblancsoulshackle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leblanc\leblancsoulshacklem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leblanc\leblancsoulshacklenet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leblanc\leblancsoulshacklenetm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lissandra\lissandraedamage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lissandra\lissandraqmissile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lissandra\lissandrarenemy2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lissandra\lissandrarself.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lissandra\lissandrawfrozen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lux\luxilluminatingfraulein.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lux\luxlightbindingmis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lux\luxlightstrikekugel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lux\luxprismaticwaveshield.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lux\luxprismaticwaveshieldself.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Malphite\landslidedebuff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Malphite\malphitecleave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Malphite\seismicshard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Malphite\seismicshardbuff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Malphite\unstoppableforcestun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Malzahar\alzaharmaleficvisions.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Malzahar\alzaharnethergrasp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Malzahar\alzaharvoidling.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maokai\maokaidrain3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maokai\maokaidrain3defense.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maokai\maokaidrain3toggle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maokai\maokaitrunklinestun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maokai\maokaiunstablegrowthroot.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

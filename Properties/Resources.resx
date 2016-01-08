@@ -151,6 +151,15 @@
   <data name="alphastrike" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MasterYi\alphastrike.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="alzaharmaleficvisions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Malzahar\alzaharmaleficvisions.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alzaharnethergrasp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Malzahar\alzaharnethergrasp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alzaharvoidling" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Malzahar\alzaharvoidling.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ashepassiveslow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ashe\ashepassiveslow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -763,8 +772,56 @@
   <data name="kindredwclonebuffvisible" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Kindred\kindredwclonebuffvisible.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="kogmawbioarcanebarrage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kogmaw\kogmawbioarcanebarrage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kogmawcausticspittlecharged" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kogmaw\kogmawcausticspittlecharged.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kogmawicathiansurprise" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kogmaw\kogmawicathiansurprise.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kogmawlivingartillerrycost" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kogmaw\kogmawlivingartillerrycost.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kogmawlivingartillerrysight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kogmaw\kogmawlivingartillerrysight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kogmawvoidoozeslow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kogmaw\kogmawvoidoozeslow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="krugstonefist" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\General\krugstonefist.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="landslidedebuff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Malphite\landslidedebuff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leblancchaosorb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Leblanc\leblancchaosorb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leblancchaosorbm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Leblanc\leblancchaosorbm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leblancchaosorbproc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Leblanc\leblancchaosorbproc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leblancslide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Leblanc\leblancslide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leblancslidem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Leblanc\leblancslidem.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leblancsoulshackle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Leblanc\leblancsoulshackle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leblancsoulshacklem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Leblanc\leblancsoulshacklem.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leblancsoulshacklenet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Leblanc\leblancsoulshacklenet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leblancsoulshacklenetm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Leblanc\leblancsoulshacklenetm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="leonashieldofdaybreak" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Leona\leonashieldofdaybreak.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -780,6 +837,21 @@
   </data>
   <data name="leonazenithbladeroot" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Leona\leonazenithbladeroot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lissandraedamage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lissandra\lissandraedamage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lissandraqmissile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lissandra\lissandraqmissile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lissandrarenemy2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lissandra\lissandrarenemy2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lissandrarself" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lissandra\lissandrarself.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lissandrawfrozen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lissandra\lissandrawfrozen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="lucainwbuff" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Lucain\lucainwbuff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -802,11 +874,44 @@
   <data name="luluwbuff" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Lulu\luluwbuff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="luxilluminatingfraulein" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lux\luxilluminatingfraulein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="luxlightbindingmis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lux\luxlightbindingmis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="luxlightstrikekugel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lux\luxlightstrikekugel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="luxprismaticwaveshield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lux\luxprismaticwaveshield.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="luxprismaticwaveshieldself" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lux\luxprismaticwaveshieldself.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="malphitecleave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Malphite\malphitecleave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="manabarrier" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Blitzcrank\manabarrier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="manabarriercooldown" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Blitzcrank\manabarriercooldown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maokaidrain3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Maokai\maokaidrain3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maokaidrain3defense" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Maokai\maokaidrain3defense.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maokaidrain3toggle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Maokai\maokaidrain3toggle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maokaitrunklinestun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Maokai\maokaitrunklinestun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maokaiunstablegrowthroot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Maokai\maokaiunstablegrowthroot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mastery6261" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Masteries\mastery6261.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -943,6 +1048,12 @@
   <data name="sadism" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Mundo\sadism.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="seismicshard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Malphite\seismicshard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seismicshardbuff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Malphite\seismicshardbuff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="silence" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BuffTypes\silence.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -982,6 +1093,9 @@
   <data name="summonerhaste" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\General\summonerhaste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="summonerheal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\General\summonerheal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="superrecall" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\General\superrecall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -999,6 +1113,9 @@
   </data>
   <data name="tinyauras" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Karthus\tinyauras.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unstoppableforcestun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Malphite\unstoppableforcestun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="vaynecondemnmissile" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Vayne\vaynecondemnmissile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
