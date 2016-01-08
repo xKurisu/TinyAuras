@@ -2693,6 +2693,16 @@ namespace TinyAuras.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap maokaieslow {
+            get {
+                object obj = ResourceManager.GetObject("maokaieslow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap maokaitrunklinestun {
             get {
                 object obj = ResourceManager.GetObject("maokaitrunklinestun", resourceCulture);
