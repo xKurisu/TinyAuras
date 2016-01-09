@@ -880,6 +880,33 @@
   <ItemGroup>
     <None Include="Resources\Maokai\maokaiunstablegrowthroot.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rengar\rengarefinalmax.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rengar\rengareslow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rengar\rengarqbase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rengar\rengarqemp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rengar\rengarr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rengar\rengarrspeed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rengar\rengarwbuff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Morgana\blackshield.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maokai\maokaieslow.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

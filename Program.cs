@@ -135,7 +135,11 @@ namespace TinyAuras
             var b = buff.Sprite = new Render.Sprite(bmp, new Vector2());
 
             b.Scale = new Vector2(0.2f, 0.2f);
-            b.VisibleCondition = sender => hero.IsHPBarRendered && activebuffs.ContainsKey(buff.Name + buff.Source.NetworkId);
+            b.VisibleCondition =
+                sender =>
+                    hero.IsHPBarRendered && hero.ServerPosition.IsOnScreen() &&
+                    activebuffs.ContainsKey(buff.Name + buff.Source.NetworkId);
+
             b.PositionUpdate = delegate
             {
                 var barpos = hero.HPBarPosition;

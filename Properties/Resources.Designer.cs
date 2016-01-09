@@ -333,6 +333,16 @@ namespace TinyAuras.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap blackshield {
+            get {
+                object obj = ResourceManager.GetObject("blackshield", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap blessingofthelizardelder {
             get {
                 object obj = ResourceManager.GetObject("blessingofthelizardelder", resourceCulture);
@@ -3036,6 +3046,76 @@ namespace TinyAuras.Properties {
         internal static System.Drawing.Bitmap regenerationpotion {
             get {
                 object obj = ResourceManager.GetObject("regenerationpotion", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rengarefinalmax {
+            get {
+                object obj = ResourceManager.GetObject("rengarefinalmax", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rengareslow {
+            get {
+                object obj = ResourceManager.GetObject("rengareslow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rengarqbase {
+            get {
+                object obj = ResourceManager.GetObject("rengarqbase", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rengarqemp {
+            get {
+                object obj = ResourceManager.GetObject("rengarqemp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rengarr {
+            get {
+                object obj = ResourceManager.GetObject("rengarr", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rengarrspeed {
+            get {
+                object obj = ResourceManager.GetObject("rengarrspeed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rengarwbuff {
+            get {
+                object obj = ResourceManager.GetObject("rengarwbuff", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

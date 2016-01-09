@@ -199,6 +199,9 @@
   <data name="bilgewatercutlassdebuff" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Items\bilgewatercutlassdebuff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="blackshield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Morgana\blackshield.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="blessingofthelizardelder" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\General\blessingofthelizardelder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -907,6 +910,9 @@
   <data name="maokaidrain3toggle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Maokai\maokaidrain3toggle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="maokaieslow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Maokai\maokaieslow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="maokaitrunklinestun" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Maokai\maokaitrunklinestun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -1008,6 +1014,27 @@
   </data>
   <data name="regenerationpotion" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Items\regenerationpotion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rengarefinalmax" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rengar\rengarefinalmax.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rengareslow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rengar\rengareslow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rengarqbase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rengar\rengarqbase.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rengarqemp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rengar\rengarqemp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rengarr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rengar\rengarr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rengarrspeed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rengar\rengarrspeed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rengarwbuff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rengar\rengarwbuff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="riftwalk" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Kassadin\riftwalk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
