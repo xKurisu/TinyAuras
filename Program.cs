@@ -218,7 +218,7 @@ namespace TinyAuras
             var hero = sender as Obj_AI_Hero;
             if (hero != null && args.Buff.Caster.IsValid)
             {
-                var buff = new Buff(args.Buff.Name.ToLower(), args.Buff.StartTime, args.Buff.EndTime, sender);
+                var buff = new Buff(args.Buff.Name.ToLower(), args.Buff.StartTime, args.Buff.EndTime, hero);
                 var o = Resources.ResourceManager.GetObject(args.Buff.Name.ToLower());
 
                 var bmp = (Bitmap) o;
