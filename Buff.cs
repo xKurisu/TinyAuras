@@ -8,15 +8,15 @@ namespace TinyAuras
         public float StartTick;
         public float EndTick;
         public string Name;
-        public Obj_AI_Base Source;
+        public Obj_AI_Base Target;
         public Render.Sprite Sprite;
 
-        public Buff(string name, float start, float end, Obj_AI_Base source)
+        public Buff(string name, float start, float end, Obj_AI_Base targ)
         {
             Name = name;
             StartTick = start;
             EndTick = end;
-            Source = source;
+            Target = targ;
         }
     }
 }

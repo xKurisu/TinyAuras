@@ -91,7 +91,7 @@ namespace TinyAuras
 
                 foreach (var buff in activebuffs.Values)
                 {
-                    if (buff.Source.NetworkId != hero.NetworkId)
+                    if (buff.Target.NetworkId != hero.NetworkId)
                         continue;
 
                     var barpos = hero.HPBarPosition;
@@ -129,7 +129,7 @@ namespace TinyAuras
             const int xoffset = -7;
             int yoffset = hero.IsMe ? 40 : 49;
 
-            if (buff.Source.NetworkId != hero.NetworkId)
+            if (buff.Target.NetworkId != hero.NetworkId)
                 return;
 
             var b = buff.Sprite = new Render.Sprite(bmp, new Vector2());
@@ -138,7 +138,7 @@ namespace TinyAuras
             b.VisibleCondition =
                 sender =>
                     hero.IsHPBarRendered && hero.ServerPosition.IsOnScreen() &&
-                    activebuffs.ContainsKey(buff.Name + buff.Source.NetworkId);
+                    activebuffs.ContainsKey(buff.Name + buff.Target.NetworkId);
 
             b.PositionUpdate = delegate
             {
@@ -152,19 +152,19 @@ namespace TinyAuras
                 return new Vector2(barpos.X + end, barpos.Y + yoffset);
             };
 
-            if (!activebuffs.ContainsKey(buff.Name + buff.Source.NetworkId))
+            if (!activebuffs.ContainsKey(buff.Name + buff.Target.NetworkId))
             {
                 b.Add();
-                activebuffs.Add(buff.Name + buff.Source.NetworkId, buff);
+                activebuffs.Add(buff.Name + buff.Target.NetworkId, buff);
             }
         }
 
         private static void RemoveAura(Buff buff)
         {
-            if (activebuffs.ContainsKey(buff.Name + buff.Source.NetworkId))
+            if (activebuffs.ContainsKey(buff.Name + buff.Target.NetworkId))
             {
                 buff.Sprite.Dispose();
-                activebuffs.Remove(buff.Name + buff.Source.NetworkId);
+                activebuffs.Remove(buff.Name + buff.Target.NetworkId);
             }
         }
 
@@ -181,19 +181,22 @@ namespace TinyAuras
 
                 try
                 {
-                    if (buff.Source.IsValid)
+                    if (buff.Target != null && buff.Target.IsVisible && !buff.Target.IsDead)
                     {
                         var storedtick = (int) buff.EndTick;
-                        if (storedtick != (int) buff.Source.GetBuff(buff.Name).EndTime)
+
+                        var livetick = buff.Target.GetBuff(buff.Name);
+                        if (livetick != null && storedtick != (int) livetick.EndTime)
                         {
-                            buff.EndTick = (int) buff.Source.GetBuff(buff.Name).EndTime;
+                            buff.EndTick = (int) livetick.EndTime;
                             break;
                         }
                     }
                 }
+
                 catch (Exception e)
                 {
-                    Console.WriteLine("Failed to update TinyAura: " + e.Message);
+                    Console.WriteLine("Failed to update TinyAura: " + Utils.GameTimeTickCount);
                 }
             }
         }
