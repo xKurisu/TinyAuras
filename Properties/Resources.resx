@@ -181,6 +181,9 @@
   <data name="azirrhaste" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Azir\azirrhaste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bantamtraptarget" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Teemo\bantamtraptarget.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bardpchimepickupspeedboost" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bard\bardpchimepickupspeedboost.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -207,6 +210,9 @@
   </data>
   <data name="blind" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BuffTypes\blind.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blindingdart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Teemo\blindingdart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="blindminkwtwo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LeeSin\blindminkwtwo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -949,6 +955,9 @@
   <data name="moltenshield" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Annie\moltenshield.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="movequick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Teemo\movequick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="netherblade" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Kassadin\netherblade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -1084,6 +1093,15 @@
   <data name="silence" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BuffTypes\silence.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="sivire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sivir\sivire.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sivirr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sivir\sivirr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sivirwmarker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sivir\sivirwmarker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="slow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BuffTypes\slow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -1138,8 +1156,26 @@
   <data name="taunt" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BuffTypes\taunt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="teemocamouflagestealthtt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Teemo\teemocamouflagestealthtt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="tinyauras" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Karthus\tinyauras.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toxicshotparticle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Teemo\toxicshotparticle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tristanaechargesound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tristana\tristanaechargesound.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tristanaq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tristana\tristanaq.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tristanarbowling" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tristana\tristanarbowling.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tristanaw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tristana\tristanaw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="unstoppableforcestun" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Malphite\unstoppableforcestun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -1155,6 +1191,24 @@
   </data>
   <data name="vaynetumblebonus" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Vayne\vaynetumblebonus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yasuodashscalar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yasuo\yasuodashscalar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yasuodashswrapper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yasuo\yasuodashswrapper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yasuopassivemshieldon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yasuo\yasuopassivemshieldon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yasuoq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yasuo\yasuoq.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yasuoq3w" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yasuo\yasuoq3w.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yasuorknockupcombo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yasuo\yasuorknockupcombo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="zace" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Zac\zace.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

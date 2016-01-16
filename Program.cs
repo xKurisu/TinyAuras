@@ -173,7 +173,7 @@ namespace TinyAuras
             foreach (var buff in activebuffs.Values)
             {
                 var endtick = buff.EndTick * 1000;
-                if (endtick - Utils.GameTimeTickCount < 0)
+                if (endtick - Utils.GameTimeTickCount <= 0)
                 {
                     RemoveAura(buff);
                     break;
@@ -193,7 +193,6 @@ namespace TinyAuras
                         }
                     }
                 }
-
                 catch (Exception e)
                 {
                     Console.WriteLine("Failed to update TinyAura: " + Utils.GameTimeTickCount);

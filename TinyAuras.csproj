@@ -907,6 +907,60 @@
   <ItemGroup>
     <None Include="Resources\Maokai\maokaieslow.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tristana\tristanaechargesound.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tristana\tristanaq.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tristana\tristanarbowling.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tristana\tristanaw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sivir\sivire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sivir\sivirr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sivir\sivirwmarker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Teemo\bantamtraptarget.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Teemo\blindingdart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Teemo\movequick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Teemo\teemocamouflagestealthtt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Teemo\toxicshotparticle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yasuo\yasuodashscalar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yasuo\yasuodashswrapper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yasuo\yasuopassivemshieldon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yasuo\yasuoq.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yasuo\yasuoq3w.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yasuo\yasuorknockupcombo.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
