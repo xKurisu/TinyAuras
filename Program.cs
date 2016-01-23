@@ -62,8 +62,8 @@ namespace TinyAuras
             {
                 foreach (var b in hero.Buffs)
                 {
-                    var o = Resources.ResourceManager.GetObject(b.Name);
-                     
+                    var o = Resources.ResourceManager.GetObject(b.Name);           
+
                     var bmp = (Bitmap) o;
                     if (bmp != null)
                     {
@@ -181,6 +181,7 @@ namespace TinyAuras
 
                 try
                 {
+                    // these checks are neccessary due to common bugsplats & dump errors
                     if (buff.Target != null && buff.Target.IsVisible && !buff.Target.IsDead)
                     {
                         var storedtick = (int) buff.EndTick;
@@ -202,17 +203,7 @@ namespace TinyAuras
 
         private static void Obj_AI_Base_OnBuffAdd(Obj_AI_Base sender, Obj_AI_BaseBuffAddEventArgs args)
         {
-            if (_root.Item("loaddebug").GetValue<bool>())
-            {
-                if (_debug.Item("debug").GetValue<bool>() && args.Buff.Caster.IsValid)
-                {
-                    if (args.Buff.Caster.Name == _debug.Item("debugtarget").GetValue<StringList>().SelectedValue)
-                    {
-                        Console.WriteLine(sender.Name + " : " + args.Buff.Name.ToLower() + " : " + (args.Buff.EndTime - args.Buff.StartTime));
-                        Game.PrintChat(sender.Name + " : " + args.Buff.Name.ToLower() + " : " + (args.Buff.EndTime - args.Buff.StartTime));
-                    }
-                }
-            }
+            Debugger(sender, args);
 
             var hero = sender as Obj_AI_Hero;
             if (hero != null && args.Buff.Caster.IsValid)
@@ -234,6 +225,25 @@ namespace TinyAuras
             if (buff != null && args.Buff.Caster.IsValid)
             {
                 RemoveAura(buff);
+            }
+        }
+
+        private static void Debugger(Obj_AI_Base sender, Obj_AI_BaseBuffAddEventArgs args)
+        {
+            if (_root.Item("loaddebug").GetValue<bool>())
+            {
+                if (_debug.Item("debug").GetValue<bool>() && args.Buff.Caster.IsValid)
+                {
+                    var msg = sender.Name + " : " + 
+                       (args.Buff.Name.ToLower()) + " : " + 
+                       (args.Buff.EndTime - args.Buff.StartTime) + " : " + (args.Buff.Type);
+
+                    if (args.Buff.Caster.Name == _debug.Item("debugtarget").GetValue<StringList>().SelectedValue)
+                    {
+                        Console.WriteLine(msg);
+                        Game.PrintChat(msg);
+                    }
+                }
             }
         }
     }

@@ -961,6 +961,48 @@
   <ItemGroup>
     <None Include="Resources\Yasuo\yasuorknockupcombo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Auras\itemaegisofthelegionauraself.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Annie\pyromania_particle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Items\abyssalscepterauraself.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Items\itemsunfirecapeparticle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mundo\burningagony.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mundo\masochism.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sona\sonaehaste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sona\sonaezone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sona\sonapassivedebuff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sona\sonaqprocattacker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sona\sonaqzone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sona\sonar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sona\sonawshield.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sona\sonawzone.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
