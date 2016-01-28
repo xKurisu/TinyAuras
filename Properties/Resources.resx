@@ -1078,6 +1078,21 @@
   <data name="rylaivisualslowdot" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Items\rylaivisualslowdot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ryzee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ryze\ryzee.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ryzepassivestack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ryze\ryzepassivestack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ryzer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ryze\ryzer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ryzerw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ryze\ryzerw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ryzew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ryze\ryzew.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="s4spawnlockspeed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\General\s4spawnlockspeed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

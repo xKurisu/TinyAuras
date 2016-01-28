@@ -1003,6 +1003,21 @@
   <ItemGroup>
     <None Include="Resources\Sona\sonawzone.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ryze\ryzee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ryze\ryzepassivestack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ryze\ryzer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ryze\ryzerw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ryze\ryzew.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
